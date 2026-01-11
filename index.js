@@ -1,7 +1,7 @@
 const express = require('express');
 const {fetch} = require('undici');
 const app = express();
-const PORT = 3000;
+const PORT = 30096;
 
 app.get('/', async (req, res) => {
 	try {
